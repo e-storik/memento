@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:memento/core/themes/color_extensions.dart';
+import 'package:memento/core/theme/color_extensions.dart';
 
 class ImageButton extends StatefulWidget {
   final String imagePath;
@@ -18,7 +18,9 @@ class _ImageButtonState extends State<ImageButton> {
       child: Container(
         padding: EdgeInsets.symmetric(horizontal: 27.0, vertical: 5.0),
         decoration: BoxDecoration(
-          color: Theme.of(context).extension<ColorExtensions>()!.fillGreySurface,
+          color: Theme.of(
+            context,
+          ).extension<ColorExtensions>()!.fillGreySurface,
           border: Border.all(
             color: Theme.of(
               context,

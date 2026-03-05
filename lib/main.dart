@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:memento/core/constants/app_constants.dart';
-import 'package:memento/core/themes/default_theme.dart';
 import 'package:memento/features/home/view/pages/home_page.dart';
+import 'package:memento/core/theme/default_theme.dart';
 
 void main() {
   runApp(const MomentoApp());
