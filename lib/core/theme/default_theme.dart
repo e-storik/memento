@@ -16,9 +16,9 @@ ThemeData defaultTheme = ThemeData(
   primaryColor: BaseColors.brand900,
   scaffoldBackgroundColor: BaseColors.neutral900,
   colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
-  textSelectionTheme: const TextSelectionThemeData(
-    selectionHandleColor: Color.fromARGB(100, 150, 150, 150),
-    cursorColor: Color.fromARGB(255, 150, 150, 150),
+  textSelectionTheme: TextSelectionThemeData(
+    selectionHandleColor: BaseColors.neutral100,
+    cursorColor: BaseColors.neutral400,
   ),
 
   appBarTheme: AppBarTheme(

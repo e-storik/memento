@@ -9,6 +9,12 @@ class BaseColors {
   static final brand500 = hexToRGB("4294FF");
   // EN: Brand Accent Blue
 
+  static final neutral400 = hexToRGB("969696");
+  // Cursor Color
+
+  static final neutral100 = hexToRGB("EBEBEB");
+  // Cursor Selection Color aka Cloud
+
   // 🌑 Neutral Scale
   static final neutral900 = hexToRGB("0F0F0F");
   // FR: Contour Sombre
